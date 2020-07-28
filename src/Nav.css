@@ -1,0 +1,49 @@
+.navhead {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    height: 15vh;
+}
+.navhead img {
+    margin-left: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+nav ul li {
+    margin-left: 30px;
+    font-size: large;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 2px;
+}
+
+li:hover {
+    color: royalblue;
+    transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+.btn {
+    border: 1px solid blue;
+    background-color: #2AB5E1;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    width: 10%;
+    font-size: larger;
+    margin-right: 50px;
+}
+.btn:hover{
+    color: blue;
+    background: white;
+    transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+

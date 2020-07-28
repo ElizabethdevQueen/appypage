@@ -1,0 +1,122 @@
+.about {
+    border: 1px solid #ffffff;
+    height: 100vh;
+    background-color: wheat;
+    color: blue;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+.abouthead {
+    text-align: center;
+}
+.abouthead h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* PROGRESS SECTION */
+.progress-wrapper{
+    width: auto;
+    height: 90vh;
+    margin-top: 0;
+    border-top: 0px;
+}
+.progress-text {
+    border: 1px solid none;
+    width: 50%;
+    height: 90vh;
+    background-color: grey;
+    color: rgb(222, 241, 240);
+    padding-right: 30px;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.progress-text h1{
+    font-size: small;
+}
+.progress-text h3{
+    font-size: xx-large;
+}
+.progress-text p{
+    line-height: 35px;
+    font-size: medium;
+}
+.progress-image{
+    border: 1px solid none;
+    background-image: url(https://images.pexels.com/photos/3740242/pexels-photo-3740242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 50%;
+    height: 90vh;
+    background-color: bisque;
+    padding-left: 60px;
+    transform: translateY(-100%);
+    margin-left: 50%;
+    margin-top: 0;
+}
+.btnsp {
+    border: 1px solid grey;
+    background: linear-gradient(120deg, blue, lightskyblue);
+    color: white;
+    padding: 20px;
+    width: 25%;
+    border-radius: 30px;
+}
+.progress-image img {
+    transform: translateY(-10%);
+}
+
+
+/* GRAT APPLICATION VIDEO */
+.video-container{
+    width: auto;
+    height: 100vh;
+    margin-top: 0;
+    border-top: 0px;
+    margin-top: -30%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    border: 1px solid none;
+}
+.mainvideo{
+    border: 1px solid none;
+    background-image: url(https://images.pexels.com/photos/3740242/pexels-photo-3740242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 50%;
+    height: 90vh;
+    background-color: bisque;
+    padding-left: 60px;
+    margin-top: 0;
+}
+.videotext {
+    border: 1px solid none;
+    width: 50%;
+    height: 90vh;
+    background-color: #ffffff;
+    color: rgb(101, 130, 223);
+    padding-right: 30px;
+    padding-left: 70px;
+    padding-top: 80px;
+    transform: translateY(-100%);
+    margin-left: 50%;
+}
+.videotext h1{
+    font-size: small;
+}
+.videotext h3{
+    font-size: xx-large;
+}
+.videotext p{
+    line-height: 35px;
+    font-size: medium;
+    margin-bottom: 35px;
+}
+
+.btnvf {
+    border: 1px solid grey;
+    background: linear-gradient(120deg, blue, lightskyblue);
+    color: white;
+    padding: 20px;
+    width: 25%;
+    border-radius: 30px;
+}
+
+
+
