@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from './Pricingcard';
 import './Features.css';
 
 class Pricingplan extends Component {

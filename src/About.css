@@ -59,6 +59,7 @@
     padding: 20px;
     width: 25%;
     border-radius: 30px;
+    cursor: pointer;
 }
 .progress-image img {
     transform: translateY(-10%);
@@ -66,6 +67,9 @@
 .btnsp:hover{
     color: blue;
     background: #ffffff;
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    overflow: hidden;
 }
 
 
@@ -127,6 +131,8 @@
 .btnvf:hover{
     color: blue;
     background: #ffffff;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 
 
