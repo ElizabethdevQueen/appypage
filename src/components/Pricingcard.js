@@ -6,23 +6,20 @@ const Card = props => {
     return(
         <div className="card text-center shadow">
             <div className="overflow">
-                <div class="price-header">
-                    <div class="price-icon">
-                        <span class="lnr lnr-rocket"></span>
-                    </div>
-                    <h4 class="upper">Free</h4>
-                </div>
-                <div class="price-body">
-                    <ul>
-                        <li>Easy Installations</li>
-                        <li>Unlimited support</li>
-                        <li>Uniqe Elements</li>
-                    </ul>
-                </div>
-                <div class="price-rate">
-                    <sup>&#36;</sup> <span class="rate">0</span> <small>/Month</small>
-                </div>
-                <a href="#" classnAME="bttn-white">Purchase</a>
+                <i class="space shuttle icon"></i>
+                <h4 className="price-text">{props.text}</h4>
+            </div>
+
+            <div class="card-body text-dark">
+                <ul className="card-text text-secondary">
+                    <li>Easy Installations</li>
+                    <li>Unlimited support</li>
+                    <li>{props.list3}</li>
+                </ul>   
+            <div className="amount">
+            <sup>&#36;</sup> <span className="rate">{props.price}</span> <small>/Month</small> <br/>
+            </div>
+                <button className="btnpr btn-outline-success">Purchase</button>
             </div>
         </div>
     );

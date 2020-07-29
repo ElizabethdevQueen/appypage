@@ -197,7 +197,7 @@
     border: 1px solid none;
     /* margin-top: 20%; */
     width: auto;
-    height: 115vh;
+    height: 130vh;
     background-color: rgb(248, 247, 245);
     color: rgb(101, 130, 223);
     padding-top: 90px;
@@ -215,6 +215,61 @@
 }
 
 /* PRICING CARD STYLING */
+.card {
+    width: 25rem;
+    height: 30rem;
+    justify-content: center;
+    
+}
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.card-body {
+    /* padding: 3rem 0 !important; */
+    padding: 15px;
+    justify-content: center;
+}
+.card-body ul{
+    justify-content: center;
+}
+.card-body ul li {
+    font-size: 1.5rem;
+    /* padding: 0.4rem 1.9rem; */
+    list-style: none;
+    padding-left: 5px;
+}
+.container-fluid .row{
+    padding-top: 6rem;
+}
+.overflow {
+    overflow: hidden;
+    border: 1px solid none;
+    background: rgb(101, 130, 223);
+    color: white;
+    height: 10rem;
+    line-height: 50px;
+    font-size: xx-large;
+    font-weight: 800;
+    line-height: 60px;
+    padding-top: 20px;
+}
+.amount{
+    font-size: x-large;
+    font-weight: lighter;
+}
+.rate {
+    font-size: xx-large !important;
+    font-weight: bolder;
+}
+.btnpr {
+    margin-top: 20px;
+    width: 30%;
+    /* border: 1px solid none;
+    border-radius: 5px;
+    background: blue; */
+}
 
 
 
