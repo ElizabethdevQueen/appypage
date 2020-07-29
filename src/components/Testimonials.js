@@ -12,7 +12,7 @@ class Testimonials extends Component {
                 </div>
 
                 <div className="row">
-                    <div className="profile col-md-4">
+                    <div className="col-md-4">
                         <Testimony img="https://colorlib.com/preview/theme/appy/images/team-2.jpg"/>
                     </div>
                     <div className="col-md-4">
