@@ -13,6 +13,7 @@
 nav ul{
     list-style: none;
     display: flex;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 
@@ -21,7 +22,7 @@ nav ul li {
     font-size: large;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 2px;
+    padding: 2px !important;
 }
 
 li:hover {
@@ -30,20 +31,20 @@ li:hover {
   -webkit-transition: 0.5s;
 }
 .btn {
-    border: 1px solid blue;
-    background-color: #2AB5E1;
-    color: white;
-    border-radius: 30px;
-    padding: 5px;
-    width: 10%;
-    font-size: larger;
-    margin-right: 50px;
+    border: 1px solid blue !important;
+    background-color: #2AB5E1 !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 5px !important;
+    width: 10% !important;
+    font-size: larger !important;
+    margin-right: 50px !important;
 }
 .btn:hover{
-    color: blue;
-    background: white;
-    transition: 0.5s;
-  -webkit-transition: 0.5s;
+    color: blue !important;
+    background: white !important;
+    transition: 0.5s !important;
+  -webkit-transition: 0.5s !important;
 }
 
 

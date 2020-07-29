@@ -7,7 +7,7 @@ class Videofeatures extends Component {
         return (
             <div className="video-container">
                 <div className="mainvideo">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ScrDhTsX0EQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ScrDhTsX0EQ" title="letsplay" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
                 </div>
 
                 <div className="videotext">

@@ -19,7 +19,7 @@ const Card = props => {
             <div className="amount">
             <sup>&#36;</sup> <span className="rate">{props.price}</span> <small>/Month</small> <br/>
             </div>
-                <button className="btnpr btn-outline-success">Purchase</button>
+                <button className="btnpr">Purchase</button>
             </div>
         </div>
     );
