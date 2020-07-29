@@ -1,0 +1,64 @@
+.subscribe-wrap {
+    border: 1px solid none;
+    width: auto;
+    height: 70vh;
+    background-color: rgb(101, 130, 223);
+    /* color: rgb(101, 130, 223); */
+    padding-top: 70px;
+}
+.sub-form {
+    border: 1px solid none;
+    border-radius: 3px;
+    background-color: white;
+    width: 60%;
+    height: 80% !important;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+input {
+    padding: 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+
+
+/* CONTACT-FOOTER SECTION */
+.footer {
+    border: 1px solid none;
+    /* margin-top: 20%; */
+    width: auto;
+    height: 115vh;
+    background-color: rgb(245, 246, 247);
+    color: rgb(101, 130, 223);
+    padding-top: 70px;
+    /* position: a; */
+}
+.featuretext {
+    padding-top: 70px;
+    text-align: center;
+}
+.featuretext h1{
+    font-size: small;
+}
+.featuretext h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-nav {
+    border: 1px solid rgb(47, 87, 219);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 15%;
+    margin-top: 30%;
+    border-right: none;
+    border-bottom: none;
+}
+.footer-nav p {
+    font-size: medium;
+}
+

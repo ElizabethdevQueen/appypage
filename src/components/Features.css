@@ -1,0 +1,239 @@
+.features-wrap {
+    border: 1px solid none;
+    margin-top: 20%;
+    width: auto;
+    height: 115vh;
+    background-color: rgb(66, 66, 226);
+    color: white;
+}
+.featuretext {
+    padding-top: 70px;
+    text-align: center;
+}
+.featuretext h1{
+    font-size: small;
+}
+.featuretext h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* TESTIMONIALS SECTION */
+.testimonial-wrap {
+    border: 1px solid none;
+    margin-top: 10%;
+    width: auto;
+    height: 100vh;
+    background-color: #ffffff;
+    color: rgb(76, 76, 240);
+}
+.testside{
+    padding-top: 70px;
+    text-align: center;
+}
+.testside h1{
+    font-size: small;
+}
+.testside h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/* SCREENSHOT STYLING SECTION */
+.main-screenshot{
+    width: auto;
+    height: 90vh;
+    margin-top: 0;
+    border-top: 0px;
+}
+.scrollarea{
+    border: 1px solid none;
+    width: 50%;
+    height: 90vh;
+    background: linear-gradient(90deg, rgb(44, 44, 214), blue);
+    color: rgb(222, 241, 240);
+    padding-right: 30px;
+    padding-left: 70px;
+}
+.screenshot-text {
+    border: 1px solid none;
+    width: 50%;
+    height: 90vh;
+    background: linear-gradient(90deg, blue, lightskyblue);
+    color: #ffffff;
+    padding-left: 60px;
+    transform: translateY(-100%);
+    margin-left: 50%;
+    /* margin-top: 0; */
+    padding-top: 80px;
+}
+.screenshot-text h1{
+    font-size: small;
+}
+.screenshot-text h3{
+    font-size: xx-large;
+}
+.screenshot-text p{
+    line-height: 35px;
+    font-size: medium;
+}
+
+
+
+/* DESIGN-FEATURES STYLING SECTION */
+.maindesign{
+    width: auto;
+    height: 115vh;
+    margin-top: 0;
+    border-top: 0px;
+}
+.designtext {
+    border: 1px solid none;
+    width: 50%;
+    height: 115vh;
+    background-color: rgb(248, 247, 245);
+    color: rgb(101, 130, 223);
+    padding-right: 70px;
+    padding-left: 90px;
+    padding-top: 100px;
+}
+.designtext h1{
+    font-size: small;
+}
+.designtext h3{
+    font-size: xx-large;
+}
+.designtext p{
+    line-height: 35px;
+    font-size: medium;
+    padding-bottom: 50px;
+}
+.designcard{
+    border: 1px solid none;
+    /* background-image: url(https://images.pexels.com/photos/3740242/pexels-photo-3740242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    width: 50%;
+    height: 115vh;
+    background-color: rgb(248, 247, 245);
+    padding-left: 60px;
+    transform: translateY(-100%);
+    margin-left: 50%;
+    margin-top: 0;
+}
+.btndf {
+    border: 1px solid grey;
+    background: linear-gradient(120deg, blue, lightskyblue);
+    color: white;
+    padding: 20px !important;
+    width: 25%;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 35%;
+}
+.btndf:hover{
+    color: blue;
+    background: #ffffff;
+}
+
+
+
+
+/* DOWNLOAD FEATURES STYLING SECTION */
+.maindownload {
+    border-radius: 1px solid blue;
+    width: 100%;
+    height: 90vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 70px;
+}
+.maindownload img {
+    transform: translateY(-20%);
+    filter: drop-shadow(2, thick);
+}
+.downloadtext {
+    padding-top: 100px;
+    line-height: 45px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.downloadtext h1 {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.downloadtext p {
+    margin-bottom: 30px;
+    color: white;
+}
+.btndld {
+    border: 1px solid white;
+    background-color: white;
+    color: blue;
+    font-size: larger;
+    border-radius: 5px;
+    width: 40%;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+
+
+/* PRICING PLAN STYLING SECTION */
+.pricing-wrap {
+    border: 1px solid none;
+    /* margin-top: 20%; */
+    width: auto;
+    height: 115vh;
+    background-color: rgb(248, 247, 245);
+    color: rgb(101, 130, 223);
+    padding-top: 90px;
+}
+.featuretext {
+    padding-top: 70px;
+    text-align: center;
+}
+.featuretext h1{
+    font-size: small;
+}
+.featuretext h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* FAQ STYLING SECTION */
+.faq-container {
+    border: 1px solid none;
+    /* margin-top: 20%; */
+    width: auto;
+    height: 115vh;
+    background-color: rgb(241, 239, 239);
+    color: rgb(101, 130, 223);
+    padding-top: 70px;
+}
+.featuretext {
+    padding-top: 70px;
+    text-align: center;
+}
+.featuretext h1{
+    font-size: small;
+}
+.featuretext h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
