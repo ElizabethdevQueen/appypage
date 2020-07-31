@@ -6,8 +6,18 @@ class Screenshot extends Component {
         return (
             <div className="main-screenshot">
                 <div className="scrollarea">
-                    <img src="" alt=""/>
+                    <img src="https://colorlib.com/preview/theme/appy/images/download-image.png" height="700px" alt=""/>
 
+                    <div id="outerbox">
+                        <div id="sliderbox">
+                            <img src="https://colorlib.com/preview/theme/appy/images/gallery-1.jpg" alt="" height="500" />
+                            <img src="https://colorlib.com/preview/theme/appy/images/gallery-2.jpg" alt="" height="500" />
+                            {/* <img src="https://colorlib.com/preview/theme/appy/images/gallery-3.jpg" alt="" height="500" />
+                            <img src="https://colorlib.com/preview/theme/appy/images/gallery-4.jpg" alt="" height="500" />
+                             */}
+                        </div>
+
+                    </div>
                 </div>
                 <div className="screenshot-text">
                     <h1> SCREENSHOTS ---- </h1>

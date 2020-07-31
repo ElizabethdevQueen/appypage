@@ -14,7 +14,42 @@ class Designfeatures extends Component {
                 </div>
 
                 <div className="designcard">
-                    
+                    <div className="ui container comments">
+                        <div className="comment">
+                            <a href="/" className="icons">
+                                <i class="rocket icon"></i>
+                            </a>
+
+                            <div className="text">
+                                <h1>Easy Notifications</h1>
+                                <p>Lorem ipsum dolor sit amet, <br />adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ui container comments">
+                        <div className="comment">
+                            <a href="/" className="icons">
+                                <i class="rocket icon"></i>
+                            </a>
+
+                            <div className="text">
+                                <h1>Fully Responsive</h1>
+                                <p>Lorem ipsum dolor sit amet, <br />adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ui container comments">
+                        <div className="comment">
+                            <a href="/" className="icons">
+                                <i class="rocket icon"></i>
+                            </a>
+
+                            <div className="text">
+                                <h1>Editable Layout</h1>
+                                <p>Lorem ipsum dolor sit amet, <br />adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -14,14 +14,15 @@
     height: 80% !important;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 50px !important;
 }
 input {
     padding: 20px;
     width: 50%;
     border: 1px solid black;
     border-radius: 30px;
-    margin-top: 25px;
+    margin-top: 25px !important;
+    font-size: larger;
 }
 
 
@@ -31,7 +32,7 @@ input {
     border: 1px solid none;
     /* margin-top: 20%; */
     width: auto;
-    height: 115vh;
+    height: 97vh;
     background-color: rgb(245, 246, 247);
     color: rgb(101, 130, 223);
     padding-top: 70px;
@@ -48,13 +49,37 @@ input {
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
 }
+.footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.footer-content .container .comment{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+.footer-content .container{
+    /* padding-top: 60px; */
+    /* margin-left: 30px; */
+    font-size: larger;
+}
+.footer-content .container p{
+    color: rgb(88, 35, 235);
+    /* margin-left: 50px; */
+}
+.footer-content .container h1{
+    color: rgb(88, 35, 235);
+    font-size: larger;
+    /* margin-left: 50px; */
+}
 .footer-nav {
     border: 1px solid rgb(47, 87, 219);
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    height: 15%;
-    margin-top: 30%;
+    padding: 20px;
+    height: 20%;
+    margin-top: 10%;
     border-right: none;
     border-bottom: none;
 }
@@ -63,4 +88,4 @@ input {
 }
 
 
-/*  */
+
