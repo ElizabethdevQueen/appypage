@@ -6,7 +6,7 @@ const Card = props => {
     return(
         <div className="card text-center shadow">
             <div className="overflow">
-                <i class="space shuttle icon"></i>
+                <i class="rocket icon"></i>
                 <h4 className="price-text">{props.text}</h4>
             </div>
 
