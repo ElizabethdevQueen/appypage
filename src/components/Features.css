@@ -413,10 +413,10 @@ blockquote::after{
 
 /* FAQ STYLING SECTION */
 .faq-container {
-    border: 1px solid none;
+    /* border: 1px solid none; */
     /* margin-top: 20%; */
     width: auto;
-    height: 115vh;
+    height: auto;
     background-color: rgb(241, 239, 239);
     color: rgb(101, 130, 223);
     padding-top: 70px;
@@ -431,5 +431,61 @@ blockquote::after{
 .featuretext h3{
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
+}
+.faq-container .faq-content .faq-accordion{
+    width: 600px;
+    box-shadow: 1px 1px 4px 1px black;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.faq-container .faq-content{
+    padding-bottom: 80px;
+
+}
+.faq-content .fcontent{
+    display: flex;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+}
+.faq-content .tab{
+    background-color: rgb(14, 143, 185);
+    padding: 10px;
+    color: #fefefe;
+    cursor: pointer;
+    display: flex;
+    border-left: 5px solid blue;
+    padding: 15px;
+}
+.faq-content .tab p{
+    font-size: x-large;
+    margin-left: 20px;
+    /* border-left: 2px solid blue; */
+}
+.faq-content .content {
+    background-color: white;
+    margin-bottom: 15px;
+    height: 0;
+    font-size: large;
+    overflow: hidden;
+    /* display: none; */
+    transition: all 0.5s ease-in-out;
+}
+.faq-content .tab:hover,
+.active{
+    background-color: rgb(124, 124, 187);
+}
+.faq-content .content p{
+    padding: 20px;
+    border-left: 5px solid blue;
+    /* overflow-y: scroll; */
+}
+.faq-content .fa{
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.faq-content .showContent{
+    height: 70px;
+    overflow-y: scroll;
 }
 
