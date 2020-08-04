@@ -4,7 +4,7 @@ import './Features.css';
 class Designfeatures extends Component {
     render() {
         return (
-            <div className="maindesign">
+            <div className="maindesign" id="gallery">
                 <div className="designtext">
                     <h1> OUR FEATURES </h1>
                     <h3> Aour Approach of Design is Prety Simple and Clear </h3>

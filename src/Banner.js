@@ -4,7 +4,7 @@ import './Banner.css';
 class Banner extends Component {
     render() {
         return (
-            <div className="banner-container">
+            <div className="banner-container" id="bnr">
                 <img src="https://colorlib.com/preview/theme/appy/images/header-mobile.png" alt=""/>
                 <div className="banner-text">
                     <h1>Start your amazing <br/>stuff through appy.</h1>

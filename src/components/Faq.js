@@ -44,7 +44,7 @@ class Faq extends Component {
     render() {
         const{data, data2} = this.state;
         return (
-            <div className="faq-container">
+            <div className="faq-container" id="fqr">
                 <div className="featuretext">
                     <h1>---- FAQ ----</h1>
                     <h3>Frequently Asked Questions</h3>
@@ -56,7 +56,7 @@ class Faq extends Component {
                             {data.map((item,index)=>{
                                 return <Faqaccordion Key={index} title={item.title} text={item.text} />
                                 })
-                                }
+                            }
                         </div>
                     
                         <div className="faq-accordion">

@@ -6,7 +6,7 @@ import FeaturesDetails from './FeaturesDetails';
 class Features extends Component {
     render() {
         return (
-            <section className="features-wrap">
+            <section className="features-wrap" id="ftrs">
                 <div className="featuretext">
                     <h1>---- FEATURES ----</h1>
                     <h3>Pwoerful Features As Always</h3>

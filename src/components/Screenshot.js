@@ -4,7 +4,7 @@ import './Features.css';
 class Screenshot extends Component {
     render() {
         return (
-            <div className="main-screenshot">
+            <div className="main-screenshot" id="scrnsht">
                 <div className="scrollarea">
                     <img src="https://colorlib.com/preview/theme/appy/images/download-image.png" height="700px" alt=""/>
 

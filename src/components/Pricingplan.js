@@ -5,7 +5,7 @@ import './Features.css';
 class Pricingplan extends Component {
     render() {
         return (
-            <div className="pricing-wrap">
+            <div className="pricing-wrap" id="price">
                 <div className="featuretext">
                     <h1>---- PRICING PLAN ----</h1>
                     <h3>Our Awesome Pricing Plan</h3>

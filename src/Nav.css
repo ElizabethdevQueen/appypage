@@ -6,6 +6,10 @@
     padding: 20px;
     justify-content: space-between;
     height: 15vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .navhead img {
     margin-left: 20px;

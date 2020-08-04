@@ -7,7 +7,7 @@ class Faqaccordion extends Component {
     }
     handleToggle=()=>{
         this.setState({
-            showInfo:this.state.showInfo
+            showInfo:true
         })
     }
     render(props) {

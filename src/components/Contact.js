@@ -4,7 +4,7 @@ import './Subscribe.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="footer">
+            <div className="footer" id="futa">
                 <div className="featuretext">
                     <h1>---- CONTACT US ----</h1>
                     <h3>Find Us By Bellow Details</h3>

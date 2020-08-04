@@ -5,7 +5,7 @@ import './About.css';
 export default class About extends Component {
     render() {
         return (
-            <div className="about">
+            <div className="about" id="abt">
                 <div className="abouthead">
                     <img src="https://colorlib.com/preview/theme/appy/images/about-logo.png" alt="" />
                     <h3>---- About us ---- </h3>

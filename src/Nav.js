@@ -1,46 +1,87 @@
 import React, { Component } from 'react';
 import './Nav.css';
-// import {Link} from 'react-router-dom'
+import { Link } from 'react-scroll';
+
+
 
 class Nav extends Component {
     render() {
         return (
             <div className="navhead">
-                <img src="https://colorlib.com/preview/theme/appy/images/logo.png" alt="Logo"/>
+               <Link 
+                    smooth={true}
+                    duration={2000}
+                    to="bnr"> 
+                    <img src="https://colorlib.com/preview/theme/appy/images/logo.png" alt="Logo"/>
+                </Link>
+        
             <div className="navlink">
                 <nav>
                     <ul>
                         <li>
-                            Home
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="bnr"> Home </Link>
                         </li>
                         <li>
-                            About
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="abt"> About </Link>
                         </li>
                         <li>
-                            Features
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="ftrs"> Features </Link>
                         </li>
                         <li>
-                            Gallery
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="gallery"> Gallery </Link>
                         </li>
                         <li>
-                            Pricing
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="price"> Pricing </Link>
                         </li>
                         <li>
-                            FAQ
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="fqr"> FAQ </Link>
                         </li>
                         <li>
-                            Blog
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="sbscrb"> Blog </Link>
                         </li>
                         <li>
-                            Contacts
+                            <Link
+                            // activeClassName="active"
+                            smooth={true}
+                            duration={2000}
+                            to="futa"> Contacts </Link>
                         </li>
                     </ul>
-                </nav>
+                </nav> 
             </div>
                 <button className="btn">SIGN UP</button>
             </div>
         );
     }
 }
+
 
 export default Nav;
